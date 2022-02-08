@@ -29,6 +29,8 @@ cp apps/ashtanga/website/src/config/config-dev.json apps/ashtanga/website/src/co
 ```
 
 > Dentro da pasta `apps/ashtanga/website/src/config/` copiar o ficheiro `config-dev.json` para `config.json`.
+> Para evitar o erro:
+> `Module not found: Can't resolve '../config/config' in ...`
 
 Inicie o servidor Netuno:
 
