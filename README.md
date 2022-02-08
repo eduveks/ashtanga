@@ -2,11 +2,7 @@
 
 # Ashtanga Website
 
-Contém informações de introdução ao Ashtanga Vinyasa Yoga.
-
-Vídeos demonstrativos.
-
-E catálogo de posições e sequências.
+Contém informações de introdução ao Ashtanga Vinyasa Yoga, vídeos demonstrativos e o catálogo de posições e sequências.
 
 Tenha uma boa prática.
 
