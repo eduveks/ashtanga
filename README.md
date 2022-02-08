@@ -28,7 +28,7 @@ Em seguida, crie o config.json no website, por exemplo:
 cp apps/ashtanga/website/src/config/config-dev.json apps/ashtanga/website/src/config/config.json
 ```
 
-> Dentro da pasta `apps/ashtanga/website/src/config/` copiar o ficheiro `config-dev.json` para `config.json`.
+> :warning: Dentro da pasta `apps/ashtanga/website/src/config/` copiar o ficheiro `config-dev.json` para `config.json`.
 > 
 > Para evitar o erro:
 > 
