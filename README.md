@@ -1,8 +1,10 @@
 ![Logo](https://raw.githubusercontent.com/eduveks/ashtanga/main/docs/logo.svg)
 
-# Ashtanga Website
+# Ashtanga Vinyasa Yoga
 
-Contém informações de introdução ao Ashtanga Vinyasa Yoga, vídeos demonstrativos e o catálogo de posições e sequências.
+Website open-source que contém informações de introdução ao Ashtanga Vinyasa Yoga, vídeos demonstrativos e o catálogo de posições e sequências.
+
+Feito com ReactJS, Ant.Design, [Cluar CMS](https://github.com/netuno-org/cluar) e a plataforma [Netuno](https://github.com/netuno-org/platform).
 
 Tenha uma boa prática.
 
@@ -25,6 +27,8 @@ Em seguida, crie o config.json no website, por exemplo:
 ```
 cp apps/ashtanga/website/src/config/config-dev.json apps/ashtanga/website/src/config/config.json
 ```
+
+> Dentro da pasta `apps/ashtanga/website/src/config/` copiar o ficheiro `config-dev.json` para `config.json`.
 
 Inicie o servidor Netuno:
 
