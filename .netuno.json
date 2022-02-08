@@ -1,0 +1,110 @@
+{
+    "name": "ashtanga",
+    "description": "Website dedicado à prática do Ashtanga Vinyasa Yoga, feito em ReactJS e o Cluar CMS, utilizando a plataforma Netuno.",
+    "type": "app",
+    "config": {
+        "development": {
+            "cron": {"jobs": []},
+            "settings": {
+                "public": {},
+                "website": {
+                    "origin": "http://localhost:3000"
+                },
+                "uglifyjs": false
+            },
+            "cors": [{
+                "origins": [ "*" ],
+                "enabled": true
+            }],
+            "smtp": {},
+            "name": "ashtanga",
+            "setup": {
+                "schema": {
+                    "execution": true,
+                    "auto_create": true
+                },
+                "scripts": {"execution": true},
+                "enabled": true
+            },
+            "language": "pt_PT",
+            "firebase": {
+                "app_name": "",
+                "database_url": "",
+                "key_file": "",
+                "listener_secret": ""
+            },
+            "locale": "pt_PT",
+            "remote": {},
+            "commands": [
+                {
+                    "path": "ui",
+                    "command": "npm run watch",
+                    "enabled": true
+                },
+                {
+                    "path": "website",
+                    "command": "npm start",
+                    "enabled": true
+                }
+            ],
+            "db": {"default": {
+                "password": "",
+                "engine": "h2",
+                "port": "",
+                "host": "",
+                "name": "ashtanga",
+                "username": ""
+            }}
+        },
+        "production": {
+            "cron": {"jobs": []},
+            "settings": {
+                "public": {},
+                "uglifyjs": false
+            },
+            "cors": [{
+                "origins": [ "*" ],
+                "enabled": true
+            }],
+            "smtp": {},
+            "name": "ashtanga",
+            "setup": {
+                "schema": {
+                    "execution": true,
+                    "auto_create": true
+                },
+                "scripts": {"execution": true},
+                "enabled": true
+            },
+            "language": "pt_PT",
+            "firebase": {
+                "app_name": "",
+                "database_url": "",
+                "key_file": "",
+                "listener_secret": ""
+            },
+            "locale": "pt_PT",
+            "remote": {},
+            "commands": [
+                {
+                    "path": "ui",
+                    "command": "npm run watch",
+                    "enabled": false
+                },
+                {
+                    "path": "website",
+                    "command": "npm start",
+                    "enabled": false
+                }
+            ],
+            "db": {"default": {
+                "password": "",
+                "engine": "h2",
+                "port": "",
+                "host": "",
+                "name": "ashtanga",
+                "username": ""
+            }}
+        }
+    }
+}

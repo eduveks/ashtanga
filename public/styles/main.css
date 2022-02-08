@@ -1,0 +1,126 @@
+/**
+
+HERE YOUR CUSTOM CSS
+
+**/
+
+.navbar, .navbar-inverse {
+    background-color: #1c1c1c !important;
+    border-bottom: none;
+}
+
+.dev .navbar, .dev .navbar-inverse {
+    background-color: #202020 !important;
+}
+
+.dev .top-nav > li > a:hover, .dev .top-nav > li > a:focus, .dev .top-nav > li.active > a, .dev .top-nav > .open > a, .dev .top-nav > .open > a:hover, .dev .top-nav > .open > a:focus {
+    background-color: #ffb200;
+    color: #202020;
+}
+
+.top-nav > li.active > a {
+	background-color: #ffb200;
+    color: #202020;
+}
+
+.dropdown button {
+    color: #ff8116;
+}
+
+.btn-primary {
+	background-color: #ff8116;
+	border-color: transparent;
+    color: #202020;
+}
+
+.btn-primary.focus, .btn-primary:focus, .btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary, .btn-primary:hover {
+	background-color: #ff8116;
+	border-color: transparent;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 5px auto #000000;
+    outline-color: #000000;
+    outline-style: auto;
+    outline-width: 5px;
+    outline-offset: -2px;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    background-color: #ff8116;
+    border-color: #ff8116;
+}
+
+.btn-link {
+    color: #ff8116;
+}
+
+.btn-link:focus, .btn-link:hover {
+    color: #ff8116;
+}
+
+.text-primary {
+    color: #ff8116;
+}
+
+.badge-warning {
+    background-color: #ff8116;
+}
+
+.select2-container--bootstrap .select2-dropdown,
+.select2-container--bootstrap.select2-container--focus .select2-selection,
+.select2-container--bootstrap.select2-container--open .select2-selection {
+    border-color: #ff8116;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.select2-container--bootstrap .select2-results__option--highlighted[aria-selected] {
+    background-color: #ff8116;
+}
+
+.form-control:focus {
+    border-color: #ff8116;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary, 
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary {
+    background: #ff8116 !important;
+}
+
+.datepicker table tr td.active.active, .datepicker table tr td.active.highlighted.active, .datepicker table tr td.active.highlighted:active, .datepicker table tr td.active:active {
+    background: #ff8116;
+}
+
+.clockpicker-canvas line {
+    stroke: #ff8116 !important;
+}
+
+.clockpicker-canvas-bg-trans, .clockpicker-canvas-bg {
+    fill: rgba(201,80,0,.25) !important;
+}
+
+.clockpicker-canvas-bearing, .clockpicker-canvas-fg {
+    fill: #ff8116 !important;
+}
+
+.clockpicker-tick.active,
+.clockpicker-tick:hover {
+        background-color: #ff8116;
+        background-color: rgba(201,80,0,.25);
+}
+
+.search-content .btn-search,
+.search-content .btn-filter {
+    background: #ff8116 !important;
+}
+
+.pagination>li>a, .pagination>li>span {
+	color: #ff8116 !important;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+	color: #ff8116 !important;
+}
