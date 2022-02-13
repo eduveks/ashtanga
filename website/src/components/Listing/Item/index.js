@@ -15,7 +15,14 @@ export default ({ section, type, image, image_title, image_alt, title, content, 
         <div dangerouslySetInnerHTML={{ __html: content }}></div>
       </Col>
     );
-  } else if(type === 'OTHER-CUSTOM-TYPE-HERE') {
+  } else if (type === 'carousel') {
+      layout = (
+          <div>
+            <img src={`/images/${section}/${image}`} />
+            <p className="legend" dangerouslySetInnerHTML={{ __html: content }}></p>
+          </div>
+      );
+  } else if (type === 'OTHER-CUSTOM-TYPE-HERE') {
     layout = (
       <li className={`listing__item__${type}`} style={{ backgroundImage: `url(/images/${section}/${image})` }}>
         <div className={`listing__item__${type}__content`}>

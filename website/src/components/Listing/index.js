@@ -1,6 +1,8 @@
 import React from 'react';
 import { Row } from 'antd';
 
+import { Carousel } from 'react-responsive-carousel';
+
 import Item from './Item';
 
 import './index.less';
@@ -33,6 +35,12 @@ export default ({section, type, image, image_title, image_alt, title, content, i
           </Row>
         </div>
       );
+    } else if (type === 'carousel') {
+        listLayout = (
+            <Carousel>
+              { children }
+            </Carousel>
+        );
     } else if (type === 'OTHER-CUSTOM-TYPE-HERE') {
       listLayout = (
           <Row className={`listing__${type}`}>
